@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Manrope', sans-serif;
 }
 .navbar{
     display: flex;
@@ -14,6 +14,9 @@
 .left{
     display: flex;
     width: 20%;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
     font-size: 20px;
     align-items: center;
     justify-content: space-around;
@@ -30,13 +33,187 @@
 .right li a{
     color: white;
     font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
     text-decoration: none;
 }
 .video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
     display: grid;
-    width: 100%;
-    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
     background: scroll;
+    z-index: -1;
+}
+img{
+    display: flex;
+    position: absolute;
+    height: 20px;
+    width: 18px;
+    top: 41.28px;
+    left: 55px;
+
+}
+h1.h{
+    color: white;
+    text-align: center;
+    padding-top: 71px;
+    justify-items: space-around;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+h2.h2{
+    text-align: center;
+    color: white;
+    justify-items: space-around;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 84px;
+}
+.pr{
+    color: white;
+    text-align: center;
+    justify-items: space-around;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+.btn-events{
+    position: absolute;
+    color: #273683;
+
+    display: flex;
+    flex-direction: row;
+    top: 513px;
+    left: 650px;
+    align-items: center;
+    text-align: center;
+    padding: 12px 18px 12px 20px;
+    background: white;
+    border-radius: 60px;
+}
+.h4{
+    display: flex;
+}
+.rec{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 988px;
+    left: 0px;
+    top: 700px;    
+    background: #011341;
+}
+img.img-book{
+    position: absolute;
+    width: 459px;
+    height: 459px;
+    top: 54px;
+}
+.what-is-jnnsb{
+    position: absolute;
+    left: 629px;
+    top: 184px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 55px;
+    color: white;
+}
+.what-is-jnnsb-desc{
+    position: absolute;
+    left: 629px;
+    top: 247px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150.55%;
+    color: white;
+    opacity: 0.8;
+}
+.and-why-is-jnnsb{
+    position: absolute;
+    left: 233px;
+    top: 626px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 55px;
+    color: white;
+}
+.img-hand-book{
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    top: 488px;
+    left: 870px;
+}
+.and-why-is-jnnsb-desc{
+    position: absolute;
+    left: 233px;
+    top: 691px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150.55%;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.light-blue-rec{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 550px;
+    left: 0px;
+    top: 1688px;
+
+    background: #0A6FF8;
+}
+img.img-ieee{
+    display: flex;
+    width: 70%;
+    position: absolute;
+    width: 279px;
+    height: 124px;
+    top: 107px;
+    left: 500px;
+}
+img.img-ieee-manglore{
+    position: absolute;
+    width: 150px;
+    height: 124px;
+    top: 107px;
+    left: 792px;
+}
+.IEEE-Managalore-Section{
+    position: absolute;
+    width: 694px;
+    height: 57px;
+    left: 372px;
+    top: 263px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 57px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.IEEE-Managalore-Section-desc{
+    position: absolute;
+    width: 1037px;
+    height: 108px;
+    left: 202px;
+    top: 334px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150.55%;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 @media screen and (max-width:768px) {
